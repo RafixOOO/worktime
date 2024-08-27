@@ -18,6 +18,7 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
+        dbConnector.finishtime();
         Label instructionLabel = new Label("Zeskanuj swoją kartę");
         instructionLabel.setFont(new Font("Arial", 24));
         instructionLabel.setTextFill(Color.DARKBLUE);
